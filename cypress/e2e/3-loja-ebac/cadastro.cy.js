@@ -17,17 +17,14 @@ describe('Funcionalidade cadastro', () => {
         cy.get('#account_last_name').type(faker.person.lastName())
         cy.get('.woocommerce-Button').click()
         cy.get('.woocommerce-message').should('exist')
-
         
     })
 
-    
     it('Deve completar o cadastro com sucesso - usando variáveis', () => {
 
         var email = faker.internet.email()
         var nome = faker.person.firstName()
         var sobrenome = faker.person.lastName()
-
 
         cy.get('#reg_email').type(email)
         cy.get('#reg_password').type('teste123')
