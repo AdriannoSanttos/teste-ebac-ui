@@ -1,0 +1,22 @@
+[
+    {
+        "nomeProduto": "Abominable Hoodie",
+        "tamanho": "XL",
+        "cor": "Red",
+        "quantidade": 3
+    },
+
+    {
+        "nomeProduto": "Aero Daily Fitness Tee",
+        "tamanho": "L",
+        "cor": "Black",
+        "quantidade": 3
+    },
+
+    {
+        "nomeProduto": "Cronus Yoga Pant",
+        "tamanho": "36",
+        "cor": "Red",
+        "quantidade": 4
+    }
+]
